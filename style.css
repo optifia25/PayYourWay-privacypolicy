@@ -6,30 +6,6 @@ body {
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #007BFF;
-}
-
-h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
-
-p {
-    line-height: 1.6;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .container {
     max-width: 800px;
     margin: auto;
@@ -37,4 +13,21 @@ a:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #007BFF;
+    margin: 0;
+}
+
+.logo {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
 }
